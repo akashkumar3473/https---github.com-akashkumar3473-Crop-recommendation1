@@ -1,12 +1,65 @@
-# React + Vite
+🌾 Crop Recommendation System
+📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Crop Recommendation System is a machine learning-based web application that suggests the most suitable crop based on soil and environmental conditions. It helps farmers and agricultural professionals make data-driven decisions to improve productivity and yield.
 
-Currently, two official plugins are available:
+🚀 Features
+🌱 Predict best crop based on input parameters
+📊 Uses machine learning models for accurate prediction
+🧠 Handles soil nutrients (N, P, K), temperature, humidity, pH, rainfall
+💻 User-friendly interface for easy interaction
+⚡ Fast and real-time recommendations
+🛠️ Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Flask (Python)
+Machine Learning: Scikit-learn
+Libraries: Pandas, NumPy, Joblib
+📂 Project Structure
+├── app.py
+├── ml_service.py
+├── model.pkl
+├── crop_encoder.pkl
+├── templates/
+├── static/
+├── requirements.txt
+├── index.html
+📊 Input Parameters
+Nitrogen (N)
+Phosphorus (P)
+Potassium (K)
+Temperature (°C)
+Humidity (%)
+pH value
+Rainfall (mm)
+🎯 Output
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 The system predicts the most suitable crop based on the given inputs.
 
-## Expanding the ESLint configuration
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/akashkumar3473/https---github.com-akashkumar3473-Crop-recommendation1.git
+cd Crop-recommendation1
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+3️⃣ Run the Application
+python app.py
+4️⃣ Open in Browser
+http://localhost:5000
+🧠 How It Works
+User enters soil and environmental data
+Data is preprocessed and normalized
+Machine learning model predicts crop
+Result is displayed to user
+📈 Future Improvements
+Add fertilizer recommendation
+Integrate real-time weather API
+Deploy using cloud (AWS / Vercel / Render)
+Add mobile-friendly UI
+🤝 Contributing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+📜 License
+
+This project is open-source and available under the MIT License.
