@@ -24,6 +24,12 @@ It provides fast, simple, and data-driven crop suggestions to support smart farm
 
 ---
 
+## 📈 Architecture Flow
+<img width="1536" height="1024" alt="crop" src="https://github.com/user-attachments/assets/e7b5310c-6422-4000-bc3f-a03328052c68" />
+
+
+---
+
 ## 🛠️ Tech Stack
 
 - Frontend: HTML, CSS, JavaScript
