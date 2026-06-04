@@ -32,7 +32,7 @@ It provides fast, simple, and data-driven crop suggestions to support smart farm
 
 ## 🛠️ Tech Stack
 
-- Frontend: HTML, CSS, JavaScript
+- Frontend: HTML, React.js
 - Backend: Python, Flask
 - Machine Learning: Scikit-learn
 - Libraries: Pandas, NumPy
